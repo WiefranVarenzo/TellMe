@@ -79,11 +79,12 @@ Tell adalah aplikasi analisis sentimen berbasis **Large Language Model (LLM)** y
    git clone https://github.com/WiefranVarenzo/TellMe.git
    ```
 2.Karena Modelnya terlalu besar, jalankan saya Google Colabnya, kemudian download model terbaik
-3. Jalankan script utama:
+3. Simpan model dalam folder fine_tuned_model
+4. Jalankan script utama:
    ```bash
    python app.py
    ```
-4. Buka aplikasi melalui browser di `http://localhost:5000` (atau port yang sesuai).
+5. Buka aplikasi melalui browser di `http://localhost:5000` (atau port yang sesuai).
 
 Selamat menggunakan aplikasi Tell! 🎉
 
